@@ -147,53 +147,31 @@
         margin-bottom: 9px;
     }
     .item-price {
-        position: relative;
-        padding-bottom: 20px;
+        padding-top: 270px;
     }
     .item-price__title {
         margin-bottom: 7px;
-        margin-left: 18px;
         font-size: 22px;
         line-height: 34px;
     }
     .item-price__text {
-        margin-left: 18px;
+        /* margin-left: 18px; */
         font-size: 16px;
         line-height: 24px;
-    }
-    .item-price:first-child > * {
-        margin-left: 0;
-    }
-    .item-price:first-child {
-        max-width: 293px;
-        margin-right: 27px;
-    }
-    .item-price:nth-child(2) {
-        margin-right: 61px;
-    }
-    .item-price:nth-child(2), .item-price:last-child {
-        max-width: 277px;
     }
     .item-price:first-child .item-price__img {
         max-width: 222px;
         max-height: 222px;
-        margin: 12px 0 21px 16px;   
     }
     .item-price:nth-child(2) .item-price__img {
         max-width: 267px;
         max-height: 195px;
-        margin: 9px 0 25px;
     }
     .item-price:last-child .item-price__img {
         max-width: 242px;
         max-height: 242px;
-        margin: 0;
-        margin-bottom: 13px;
     }
     .price__tag {
-        margin-left: 18px;
-        position: absolute;
-        bottom: 0;
         width: 205px;
     }
     .price-tag__item {
@@ -229,7 +207,7 @@
         max-width: 450px;
     }
     .form-contact__input {
-        width: 323px;
+        max-width: 323px;
         height: 60px;
         font-size: 14px;
         line-height: 21px;
@@ -237,7 +215,7 @@
     }
     .form-contact__button {
         padding: 15px 56px;
-        width: 193px;
+        max-width: 193px;
         height: 60px;
         font-size: 16px;
         line-height: 24px;

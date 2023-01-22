@@ -247,6 +247,16 @@ img {
 }
 .price__inner {
     display: flex;
+    justify-content: space-between;
+}
+.item-price {
+    padding-top: 350px;
+    position: relative;
+    padding-right: 20px;
+}
+.item-price__img {
+    position: absolute;
+    top: 0;
 }
 .item-price__title {
     margin-bottom: 23px;
@@ -254,9 +264,10 @@ img {
     line-height: 48px;
 }
 .item-price__text {
-    margin-bottom: 60px;
+    max-width: 420px;
     font-size: 20px;
     line-height: 30px;
+    margin-bottom: 60px;
 }
 .price__tag {
     display: flex;
@@ -265,6 +276,8 @@ img {
     height: 45px;
     border-radius: 5px;
     background-color: #EEE;
+    position: absolute;
+    bottom: 0;
 }
 .price-tag__item {
     font-weight: 400;
@@ -277,35 +290,11 @@ img {
     line-height: 45px;
     color: #263238;
 }
-.item-price:first-child {
-    max-width: 420px;
-    margin-right: 59px;
-}
-.item-price:first-child .item-price__img {
-    margin-left: 26px;
-    margin-bottom: 41px;
-}
-.item-price:nth-child(2) {
-    padding-top: 28px;
-    max-width: 391px;
-    margin-right: 37px;
-}
-.item-price:nth-child(2) .item-price__img {
-    margin-bottom: 42px;
-}
-.item-price:last-child .item-price__img {
-    margin-left: 50px;
-    margin-bottom: 14px;
-}
-.item-price:first-child .item-price__text {
-    margin-bottom: 30px;
-}
 .contact {
     padding: 105px 0 114px;
 }
 .contac__inner {
     display: flex;
-    justify-content: space-between;
 }
 .contact__img {
     margin-left: -10px;
@@ -327,9 +316,11 @@ img {
     line-height: 30px;
     margin-bottom: 52px;
 }
-
+.form-contact__inner {
+    display: flex;
+}
 .form-contact__input {
-    width: 450px;
+    max-width: 450px;
     height: 80px;
     border: 1px solid #8F95A5;
     border-radius: 10px;
