@@ -12,9 +12,9 @@
         max-width: 336px;
         max-height: 336px;
     }
-    .price__item:first-child {
+    /* .price__item:first-child {
         max-width: 355px;
-    }
+    } */
     .item-price:last-child .item-price__img {
         margin-left: 10px;
     }

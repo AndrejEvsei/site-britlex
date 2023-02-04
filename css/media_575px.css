@@ -1,0 +1,158 @@
+@media screen and (max-width: 575px) {
+    .container {
+        max-width: 510px;
+    }
+    .header__item {
+        flex-direction: column-reverse;
+    }
+    /* .header__item * {
+        margin: 0 auto; 
+    } */
+    .item-header__img {
+        display: none;
+    }
+    .item-header__title {
+        text-align: center;
+        font-size: 34px;
+    }
+    .item-header__title > br {
+        display: none;
+    }
+    .item-header__text {
+        text-align: center;
+    }
+    .item-header__button {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .skils__grid {
+        grid-template-columns: 240px 240px;
+        grid-template-rows: 534px 534px;
+        gap: 30px;
+        grid-template-areas: 
+            "speaking writing"
+            "reading listening";
+    }
+    .item-skills {
+        position: relative;
+        padding-top: 200px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .item-skills__title {
+        font-size: 18px;
+    }
+    .item-skills__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .item-skills__button {
+        width: 200px;
+        height: 50px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 36px;
+    }
+    .item-skills-speaking .item-skills__img {
+        max-width: 185px;
+        min-height: 185px;
+    }
+    .item-skills-writing .item-skills__img {
+        max-width: 182px;
+        max-height: 182px;
+    }
+    .item-skills-reading .item-skills__img {
+        max-width: 198px;
+        max-height: 132px;
+    }
+    .item-skills-listening .item-skills__img {
+        max-width: 206px;
+        max-height: 137px;
+    }
+    .about__inner {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about__img {
+        max-height: 352px;
+        max-width: 352px;
+        margin: 0 auto;
+    }
+    .about__text {
+        max-width: 525px;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 25px;
+    }
+    .about__content * {
+        text-align: center;
+    }
+    .about__counter {
+        justify-content: space-around;
+    }
+    .about__quantity {
+        font-size: 24px;
+    }
+    .price__inner {
+        flex-direction: column;
+    }
+    .price__item {
+        padding-right: 0;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .price__item:last-child {
+        margin-bottom: 0;
+    }
+    .price__item:first-child .item-price__img {
+        max-width: 260px;
+        max-width: 260px;
+    }
+    .price__item:nth-child(2) .item-price__img {
+        max-width: 314px;
+        max-width: 241x;
+        /* top: 20px;
+        left: 20px; */
+    }
+    .price__item:last-child .item-price__img {
+        max-width: 253px;
+        max-width: 253px;
+    }
+    .item-price__img {
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .item-price__title, .item-price__text {
+        text-align: center;
+    }
+    .item-price__text {
+        max-width: 80%;
+        margin: 0 auto 60px;
+    }
+    .price-tag {
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+
+
+    .contact__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__img {
+        max-width: 358px;
+        max-height: 322px;
+        margin: 0 auto;
+    }
+    .contact__title {
+        text-align: center;
+        margin-left: 0;
+    }
+    .contact__text {
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}   
