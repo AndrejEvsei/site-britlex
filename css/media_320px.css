@@ -1,0 +1,24 @@
+@media  screen and (max-width: 320px) {
+    .container {
+         max-width: 310px;
+    }
+
+
+    .skils__grid {
+        grid-template-columns: 290px;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+            "speaking"
+            "writing"
+            "reading"
+            "listening";
+    }
+    .item-skills__img {
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .item-skills-reading .item-skills__img {
+        left: 140px;
+    }
+   
+}
