@@ -1,6 +1,8 @@
 @media screen and (max-width: 575px) {
     .container {
-        max-width: 510px;
+        max-width: 530px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .header__item {
         flex-direction: column-reverse;
@@ -27,7 +29,7 @@
         transform: translate(-50%, 0);
     }
     .skils__grid {
-        grid-template-columns: 240px 240px;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 534px 534px;
         gap: 30px;
         grid-template-areas: 
@@ -48,8 +50,8 @@
         line-height: 18px;
     }
     .item-skills__button {
-        width: 200px;
-        height: 50px;
+        max-width: 200px;
+        max-height: 50px;
         font-size: 14px;
         position: absolute;
         bottom: 36px;

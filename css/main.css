@@ -117,24 +117,21 @@ img {
 .skils__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 532px 343px;
+    grid-template-rows: minmax(532px, auto) minmax(343px, auto);
     row-gap: 20px;
     column-gap: 18px;
     grid-template-areas: 
         "speaking writing reading"
         "speaking listening listening";
 }
-.skills__item {
-    padding: 0 43px 44px;
-}
 .item-skills {
+    padding: 270px 44px 100px 44px;
     background-color: #F5F5F5;
     border-radius: 10px;
     position: relative;
 }
-
 .item-skills-speaking {
-    padding: 448px 43px 95px;
+    padding-top: 448px;
 }
 .item-skills-speaking .item-skills__img {
     top: 35px;
@@ -143,18 +140,12 @@ img {
 .item-skills-speaking .item-skills__title {
     margin-bottom: 23px;
 }
-.item-skills-writing {
-    padding: 270px 30px 41px 41px;
-}
 .item-skills-writing .item-skills__img {
     top: -4px;
     right: 19px;
 }
 .item-skills-writing .item-skills__title {
     margin-bottom: 9px;
-}
-.item-skills-reading {
-    padding: 273px 30px 44px 41px;
 }
 .item-skills-reading .item-skills__img {
     top: 9px;
@@ -183,12 +174,14 @@ img {
 .item-skills__text {
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
 }
 .item-skills__button {
+    position: absolute;
+    bottom: 30px;
     padding: 15px 51px;
-    width: 218px;
-    height: 60px;
+    max-width: 218px;
+    max-height: 60px;
     border-radius: 5px;
     font-size: 20px;
     line-height: 30px;
